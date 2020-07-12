@@ -1,0 +1,53 @@
+
+img{
+	width: 30%;
+	height: 30%;
+	position: relative;
+}
+
+#main{
+	display: flex;
+}
+
+#mensaje{
+	margin: 10%  1%;
+}
+
+#mensaje button{
+	background: blue;
+	width: 150px;
+	height: 35px;
+}
+
+#mensaje a{
+	text-decoration:none;
+	text-align: center;
+	color:white;
+}
+
+footer{
+	text-align: center;
+	
+}
+
+/*---------Version mobile -------------------*/
+
+@media (max-width: 800px) {
+	img{
+		width: 55%;
+		height: 60%;
+		margin: 0 20%;
+		position: absolute;
+	}
+
+	#mensaje{
+		margin: 56% 10%;
+	}
+
+	footer{
+		text-align: center;
+		margin: 0 1% 0 1%;
+
+	}
+	
+}
